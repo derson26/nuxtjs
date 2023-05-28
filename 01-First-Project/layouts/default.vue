@@ -1,12 +1,12 @@
 <template>
-    <div class=" bg-slate-400">
+    <!-- <div class=" bg-slate-400"> -->
         <Header/>
-        <main class="default_layout">
+        <main class="default_layout  w-full md:w-4/5 mx-auto">
             <slot />
         </main>
             
         <Footer/>
-    </div>
+    <!-- </div> -->
 </template>
 
 <script lang="ts">

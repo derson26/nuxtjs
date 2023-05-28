@@ -1,10 +1,8 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
+  <div class="bg-orange-50">
+    <NuxtLayout>
+      <NuxtPage />
   </NuxtLayout>
-
+  </div>
+  
 </template>
-
-<script lang="ts"></script>
-
-<style scoped></style>

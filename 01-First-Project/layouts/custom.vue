@@ -1,7 +1,7 @@
 <template>
     <div class=" bg-slate-400">
         <CustomHeader/>
-        <main class="custom_layout">
+        <main class="custom_layout bg-orange-50  w-full md:w-4/5 mx-auto">
             <slot />
         </main>
             

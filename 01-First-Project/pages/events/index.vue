@@ -1,20 +1,14 @@
 <template>
   <h1>Events</h1>
     <ul>
-      <li><NuxtLink :to="`/events/${id}`">Event ID</NuxtLink></li>
+      <li><NuxtLink :to="`/events/${id}`">Click on me to see [ Event ID ] </NuxtLink></li>
   </ul>
   
   
 </template>
  
-<script lang="ts">
-  import { defineComponent } from '../../.nuxt/imports';
+<script lang="ts" setup>
+ const id = 1;
 
-  export default defineComponent({
-    data() {
-      return {
-        id: 1
-      }
-    }
-  })
+  
 </script>

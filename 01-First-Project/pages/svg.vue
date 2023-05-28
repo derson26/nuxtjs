@@ -11,11 +11,19 @@
         <IconsBell />
 
         {{ sayName('SVG Page') }}
+
     </div>
 </template>
 
 <script setup lang="ts">
     const { sayName } = useName();
+
+    // Plugin
+    const { $sayHello } = useNuxtApp();
+
+    $sayHello('New Plugin');
+    
+
 </script>
 
 <style scoped></style>

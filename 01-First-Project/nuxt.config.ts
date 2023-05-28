@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import { resolve } from "path"
 
 export default defineNuxtConfig({
     alias: {
@@ -16,4 +15,5 @@ export default defineNuxtConfig({
           autoprefixer: {},
         },
     },
+    modules: ['@pinia/nuxt'],
 })

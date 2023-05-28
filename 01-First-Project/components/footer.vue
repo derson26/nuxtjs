@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full border-t-4 flex justify-center h-16 items-center bg-gray-400">
+  <header class="w-full flex justify-center h-16 items-center bg-gray-400">
     <ul class="flex justify-center align-center">
       <li>footer</li>
     </ul>
