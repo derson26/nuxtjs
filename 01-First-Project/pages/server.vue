@@ -39,7 +39,7 @@
     const { data:users, pending } = await useLazyFetch('/api/users');
 
     const countrySearching = ref<string>('');
-    const { data } = await useLazyFetch('/api/countries', 
+    const { data } = await useLazyFetch('/api/countries',
     { body:{ country: countrySearching},
         method: 'POST',
     });

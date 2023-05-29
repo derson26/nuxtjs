@@ -3,7 +3,7 @@
       <!-- <NuxtLayout> -->
         <ul class="flex justify-center align-center capitalize">
           <li class="p-1"><NuxtLink to="/">Home</NuxtLink></li>
-          <li class="p-1"><NuxtLink to="/job">API 1</NuxtLink></li>
+          <li class="p-1"><NuxtLink to="/api">API 1</NuxtLink></li>
           <li class="p-1"><NuxtLink to="/params">Events</NuxtLink></li>
           <li class="p-1"><NuxtLink to="/images">Images</NuxtLink></li>
           <li class="p-1"><NuxtLink to="/svg">svg icon</NuxtLink></li>
